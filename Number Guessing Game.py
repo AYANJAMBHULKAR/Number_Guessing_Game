@@ -40,7 +40,7 @@ def computerGuess(lowval, highval, randnum, count=0):
 randnum = random.randint(1, 101)
 
 count = 0
-guess = -99
+guess = 0
 
 while (guess != randnum):
     # Get the user's guess
